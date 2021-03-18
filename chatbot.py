@@ -115,11 +115,11 @@ def search_for_hashtags(consumer_key, consumer_secret, access_token, access_toke
             w.writerow([tweet.created_at,text,
                         tweet.user.screen_name.encode('utf-8'),polarity,
                         [e['text'] for e in tweet._json['entities']['hashtags']], tweet.user.followers_count])
-#TWITTER KEYS
-consumer_key = 'TieWMF0T7PRgeCRMK2wqpSGkc'
-consumer_secret = '52cx1Gp4szYZ330HrBAod3mU32PpZdzSeGynBLaZJoxbCTFtdv'
-access_token = '1015294450006757376-yPKrTjN1ay3Zlbb8fIvjoQnutYYQoy'
-access_token_secret = 'TiVHn90MYwxhx8aHqHIOCUO9EbH5O0ygTvI1983vdM3Pg'
+#TWITTER KEYS(Generate Your Own Keys)
+consumer_key = 'TieWMF0T7PRgeCRMgdhgsdK2wqpSGkc'
+consumer_secret = '52cx1Gp4szYZ3sgsdhg30HrBAod3mU32PpZdzSeGynBLaZJoxbCTFtdv'
+access_token = '1015294450006757djbwjd376-yPKrTjN1ay3Zlbb8fIvjoQnutYYQoy'
+access_token_secret = 'TiVHn90MYwxhjbjdbjsbdx8aHqHIOCUO9EbH5O0ygTvI1983vdM3Pg'
 
 #THE ACTUAL QUERY
 
